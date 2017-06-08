@@ -16,6 +16,11 @@
 		2459C3731EE680C100A08FE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2459C3711EE680C100A08FE4 /* LaunchScreen.storyboard */; };
 		2459C37E1EE680C100A08FE4 /* WaterfallsFlowNetworkImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2459C37D1EE680C100A08FE4 /* WaterfallsFlowNetworkImageTests.m */; };
 		2459C3891EE680C100A08FE4 /* WaterfallsFlowNetworkImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2459C3881EE680C100A08FE4 /* WaterfallsFlowNetworkImageUITests.m */; };
+		2459C39C1EE6815200A08FE4 /* MainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2459C3971EE6815200A08FE4 /* MainCell.xib */; };
+		2459C39D1EE6815200A08FE4 /* UIView+MZwebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2459C3991EE6815200A08FE4 /* UIView+MZwebCache.m */; };
+		2459C39E1EE6815200A08FE4 /* WaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2459C39B1EE6815200A08FE4 /* WaterFlowLayout.m */; };
+		2459C3A11EE68CA700A08FE4 /* ToyDetailsBigImgaeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2459C3A01EE68CA700A08FE4 /* ToyDetailsBigImgaeViewController.m */; };
+		CBCE9BCFA7A8B37C6CE65294 /* libPods-WaterfallsFlowNetworkImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 609E526FC9D0C09BEBB9F6DC /* libPods-WaterfallsFlowNetworkImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		2459C3841EE680C100A08FE4 /* WaterfallsFlowNetworkImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterfallsFlowNetworkImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2459C3881EE680C100A08FE4 /* WaterfallsFlowNetworkImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterfallsFlowNetworkImageUITests.m; sourceTree = "<group>"; };
 		2459C38A1EE680C100A08FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2459C3971EE6815200A08FE4 /* MainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCell.xib; sourceTree = "<group>"; };
+		2459C3981EE6815200A08FE4 /* UIView+MZwebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MZwebCache.h"; sourceTree = "<group>"; };
+		2459C3991EE6815200A08FE4 /* UIView+MZwebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MZwebCache.m"; sourceTree = "<group>"; };
+		2459C39A1EE6815200A08FE4 /* WaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFlowLayout.h; sourceTree = "<group>"; };
+		2459C39B1EE6815200A08FE4 /* WaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFlowLayout.m; sourceTree = "<group>"; };
+		2459C39F1EE68CA700A08FE4 /* ToyDetailsBigImgaeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToyDetailsBigImgaeViewController.h; sourceTree = "<group>"; };
+		2459C3A01EE68CA700A08FE4 /* ToyDetailsBigImgaeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToyDetailsBigImgaeViewController.m; sourceTree = "<group>"; };
+		609E526FC9D0C09BEBB9F6DC /* libPods-WaterfallsFlowNetworkImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WaterfallsFlowNetworkImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D68FA62854DD3830906D5B8 /* Pods-WaterfallsFlowNetworkImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterfallsFlowNetworkImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterfallsFlowNetworkImage/Pods-WaterfallsFlowNetworkImage.debug.xcconfig"; sourceTree = "<group>"; };
+		F85F3CE0C6BD55C9A2A6AE80 /* Pods-WaterfallsFlowNetworkImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterfallsFlowNetworkImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterfallsFlowNetworkImage/Pods-WaterfallsFlowNetworkImage.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBCE9BCFA7A8B37C6CE65294 /* libPods-WaterfallsFlowNetworkImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +103,8 @@
 				2459C37C1EE680C100A08FE4 /* WaterfallsFlowNetworkImageTests */,
 				2459C3871EE680C100A08FE4 /* WaterfallsFlowNetworkImageUITests */,
 				2459C35E1EE680C100A08FE4 /* Products */,
+				E18D89915379C6DFD516F642 /* Pods */,
+				259A501E4CFE534FAF37A728 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +121,7 @@
 		2459C35F1EE680C100A08FE4 /* WaterfallsFlowNetworkImage */ = {
 			isa = PBXGroup;
 			children = (
+				2459C3961EE6813300A08FE4 /* WaterfallsFlowCustomLib */,
 				2459C3631EE680C100A08FE4 /* AppDelegate.h */,
 				2459C3641EE680C100A08FE4 /* AppDelegate.m */,
 				2459C3661EE680C100A08FE4 /* ViewController.h */,
@@ -143,6 +162,37 @@
 			path = WaterfallsFlowNetworkImageUITests;
 			sourceTree = "<group>";
 		};
+		2459C3961EE6813300A08FE4 /* WaterfallsFlowCustomLib */ = {
+			isa = PBXGroup;
+			children = (
+				2459C3971EE6815200A08FE4 /* MainCell.xib */,
+				2459C3981EE6815200A08FE4 /* UIView+MZwebCache.h */,
+				2459C3991EE6815200A08FE4 /* UIView+MZwebCache.m */,
+				2459C39A1EE6815200A08FE4 /* WaterFlowLayout.h */,
+				2459C39B1EE6815200A08FE4 /* WaterFlowLayout.m */,
+				2459C39F1EE68CA700A08FE4 /* ToyDetailsBigImgaeViewController.h */,
+				2459C3A01EE68CA700A08FE4 /* ToyDetailsBigImgaeViewController.m */,
+			);
+			path = WaterfallsFlowCustomLib;
+			sourceTree = "<group>";
+		};
+		259A501E4CFE534FAF37A728 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				609E526FC9D0C09BEBB9F6DC /* libPods-WaterfallsFlowNetworkImage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E18D89915379C6DFD516F642 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D68FA62854DD3830906D5B8 /* Pods-WaterfallsFlowNetworkImage.debug.xcconfig */,
+				F85F3CE0C6BD55C9A2A6AE80 /* Pods-WaterfallsFlowNetworkImage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2459C38D1EE680C100A08FE4 /* Build configuration list for PBXNativeTarget "WaterfallsFlowNetworkImage" */;
 			buildPhases = (
+				D381635B35418CF98C4E6F33 /* [CP] Check Pods Manifest.lock */,
 				2459C3591EE680C100A08FE4 /* Sources */,
 				2459C35A1EE680C100A08FE4 /* Frameworks */,
 				2459C35B1EE680C100A08FE4 /* Resources */,
+				5782E6171C28E6163761C79E /* [CP] Embed Pods Frameworks */,
+				0408F5BACC9939D5CCA5D6EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,7 +263,6 @@
 				TargetAttributes = {
 					2459C35C1EE680C100A08FE4 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = U3FU42CJP4;
 						ProvisioningStyle = Automatic;
 					};
 					2459C3781EE680C100A08FE4 = {
@@ -254,6 +306,7 @@
 			files = (
 				2459C3731EE680C100A08FE4 /* LaunchScreen.storyboard in Resources */,
 				2459C3701EE680C100A08FE4 /* Assets.xcassets in Resources */,
+				2459C39C1EE6815200A08FE4 /* MainCell.xib in Resources */,
 				2459C36B1EE680C100A08FE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,15 +327,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0408F5BACC9939D5CCA5D6EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterfallsFlowNetworkImage/Pods-WaterfallsFlowNetworkImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5782E6171C28E6163761C79E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterfallsFlowNetworkImage/Pods-WaterfallsFlowNetworkImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D381635B35418CF98C4E6F33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2459C3591EE680C100A08FE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2459C3A11EE68CA700A08FE4 /* ToyDetailsBigImgaeViewController.m in Sources */,
 				2459C3681EE680C100A08FE4 /* ViewController.m in Sources */,
+				2459C39E1EE6815200A08FE4 /* WaterFlowLayout.m in Sources */,
 				2459C36E1EE680C100A08FE4 /* WaterfallsFlowNetworkImage.xcdatamodeld in Sources */,
 				2459C3651EE680C100A08FE4 /* AppDelegate.m in Sources */,
 				2459C3621EE680C100A08FE4 /* main.m in Sources */,
+				2459C39D1EE6815200A08FE4 /* UIView+MZwebCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,10 +535,12 @@
 		};
 		2459C38E1EE680C100A08FE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D68FA62854DD3830906D5B8 /* Pods-WaterfallsFlowNetworkImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = U3FU42CJP4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WaterfallsFlowNetworkImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baishiapp.www.WaterfallsFlowNetworkImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,10 +549,12 @@
 		};
 		2459C38F1EE680C100A08FE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F85F3CE0C6BD55C9A2A6AE80 /* Pods-WaterfallsFlowNetworkImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = U3FU42CJP4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WaterfallsFlowNetworkImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baishiapp.www.WaterfallsFlowNetworkImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -522,6 +630,7 @@
 				2459C38F1EE680C100A08FE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2459C3901EE680C100A08FE4 /* Build configuration list for PBXNativeTarget "WaterfallsFlowNetworkImageTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +639,7 @@
 				2459C3921EE680C100A08FE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2459C3931EE680C100A08FE4 /* Build configuration list for PBXNativeTarget "WaterfallsFlowNetworkImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +648,7 @@
 				2459C3951EE680C100A08FE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
